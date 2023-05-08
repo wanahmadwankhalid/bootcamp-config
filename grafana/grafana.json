@@ -802,8 +802,8 @@
           },
           {
             "matcher": {
-              "id": "byName",
-              "options": "(HPF1FV485 Count)"
+              "id": "byRegexp",
+              "options": ".*Good.*"
             },
             "properties": [
               {
@@ -814,8 +814,8 @@
           },
           {
             "matcher": {
-              "id": "byName",
-              "options": "(HPF1FV485 Good)"
+              "id": "byRegexp",
+              "options": ".*Count.*"
             },
             "properties": [
               {
@@ -2395,6 +2395,6 @@
   "timezone": "",
   "title": "Cognite Dashboard",
   "uid": "b3511b6a-b372-4baa-ba8d-36d7ce0afa5b",
-  "version": 7,
+  "version": 8,
   "weekStart": ""
 }
